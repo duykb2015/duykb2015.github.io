@@ -1,0 +1,128 @@
+/* Reuse property */
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.timeline-time {
+    font-size: 0.875rem;
+    color: #aab4c3;
+}
+
+.head-title {
+    color: #434E5E;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #3582C4;
+}
+
+/* Header */
+.media {
+    background-color: #3582c4;
+}
+
+.media .name {
+    font-size: 2.25rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+.media .media-body ul li {
+    list-style: none;
+}
+
+.media .media-body .secondary-info a {
+    text-decoration: none;
+}
+
+.media .media-body:not(h1) {
+    font-size: 1.1rem;
+}
+
+.media .media-body .title {
+    font-size: 1.6rem;
+}
+
+/* Body */
+
+.body .bd-title {
+    font-size: 1.35rem;
+    position: relative;
+    color: #3582C4;
+}
+
+.body .bd-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background: #8d9aad;
+}
+
+.body .summary .summary-content {
+    color: #58677c;
+}
+
+.body .bd-main,
+.bd-aside {
+    color: #58677c;
+}
+
+.body .bd-main .timeline {
+    padding-left: 2rem;
+}
+
+.body .bd-main .timeline::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background: #d2e4f3;
+    left: 6px;
+    top: 4px;
+    position: absolute;
+}
+
+.body .bd-main .timeline .timeline-item::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    width: 15px;
+    height: 15px;
+    border: 4px solid #5a9bd2;
+    background: white;
+    border-radius: 50%;
+}
+
+.body .bd-main .timeline .timeline-item .timeline-item-header h3 {
+    font-size: 1.125rem;
+    color: #434E5E;
+}
+
+.body .bd-main .timeline .timeline-item .timeline-item-header .company-name {
+    color: #58677c;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.body .bd-main .side-project .bd-title a {
+    color: #58677c;
+    text-decoration: none;
+}
+
+.body .bd-main .side-project .timeline .timeline-desc a {
+    text-decoration: none;
+    color: #3582c4;
+}
+
